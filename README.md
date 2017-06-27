@@ -1,10 +1,9 @@
 # jailWiFi
 Script de Python utilizado para reiniciar una Antena WiFi USB que se "colgaba" al pasar cierto tiempo de conexión.
-Por pura vagancia de no levantarme de la silla, hice este script que localiza el devID de la antena y luego ejecuta una prueba de conexión a internet ingresando a la dirección IP de **Google.com.ar** 
-
-
 
 ### ¿ Como funciona ?
+Por pura vagancia de no levantarme de la silla, hice este script que localiza el devID de la antena y luego realiza una prueba de conexión a internet ingresando a la dirección IP de **Google.com.ar** con un timeout de 1 segundo
+Si la conexión es exitosa, no hace nada ; caso contrario ejecuta un reset en la antena con el devID anteriormente hallado, espera 10 segundos para la reconexión por el ///wpa_supplicant/// y nuevamente ejecuta una prueba de conexión.
 
 
 
