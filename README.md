@@ -30,7 +30,10 @@ Instalar urllib2
 ```
 Compilar
 ```
-gcc resetusb.c -o resetusb
+$ cd source
+
+$ gcc resetusb.c -o resetusb
+
 ```
 Permitirle ejecutarse al archivo de salida
 ```
