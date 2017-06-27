@@ -9,7 +9,7 @@ Script de Python 2.7 utilizado para reiniciar una Antena WiFi USB que se "colgab
 ### Requisitos
 - GCC
 - Python 2.7 con urllib2 
-- Conocer el driver del dipositivo  ***lsusb -t ***
+- Conocer el driver del dipositivo con **lsusb -t **
 ```
 $ lsusb -t
 /:  Bus 01.Port 1: Dev 1, Class=root_hub, Driver=dwc_otg/1p, 480M
